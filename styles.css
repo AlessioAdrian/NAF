@@ -1,0 +1,42 @@
+#login-form {
+    width: 300px;
+    margin: 100px auto;
+    padding: 30px;
+    border: 1px solid #0F4098; /* Azul escuro */
+    border-radius: 10px;
+    background: #FFF; /* Branco */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#login-form h2 {
+    text-align: center;
+    color: #0F4098; /* Azul escuro */
+}
+
+#login-form label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #0F4098; /* Azul escuro */
+}
+
+#login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #0F4098; /* Azul escuro */
+    border-radius: 5px;
+}
+
+#login-form button {
+    width: 100%;
+    padding: 10px;
+    background: #0F4098; /* Azul escuro */
+    color: #FFF; /* Branco */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#login-form button:hover {
+    background: #0C357A; /* Azul mais escuro */
+}
